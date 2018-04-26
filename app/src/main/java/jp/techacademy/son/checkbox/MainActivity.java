@@ -255,6 +255,7 @@ public class MainActivity extends AppCompatActivity {
                         okinawaLayout.addView(checkBox);
                     }
 
+
                     //cityLayout.addView(checkBox);
                     x += 1;
                 }
