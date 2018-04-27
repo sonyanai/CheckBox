@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
                     LinearLayout.LayoutParams checkBoxLayoutParams = new LinearLayout.LayoutParams(
                             LinearLayout.LayoutParams.WRAP_CONTENT,
                             LinearLayout.LayoutParams.WRAP_CONTENT);
+                    checkBoxLayoutParams.setMargins(100,0,0,0);
                     checkBox.setLayoutParams(checkBoxLayoutParams);
 
                     if (x < 195) {
@@ -374,6 +375,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams hokkaidoCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        hokkaidoCheckBoxLayoutParams.setMargins(50,0,0,0);
         hokkaidoCheckBox.setLayoutParams(hokkaidoCheckBoxLayoutParams);
         tohokuLayout.addView(hokkaidoCheckBox);
         hokkaidoCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -403,6 +405,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams aomoriCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        aomoriCheckBoxLayoutParams.setMargins(50,0,0,0);
         aomoriCheckBox.setLayoutParams(aomoriCheckBoxLayoutParams);
         tohokuLayout.addView(aomoriCheckBox);
         aomoriCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -433,6 +436,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams iwateCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        iwateCheckBoxLayoutParams.setMargins(50,0,0,0);
         iwateCheckBox.setLayoutParams(iwateCheckBoxLayoutParams);
         tohokuLayout.addView(iwateCheckBox);
         iwateCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -464,6 +468,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams miyagiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        miyagiCheckBoxLayoutParams.setMargins(50,0,0,0);
         miyagiCheckBox.setLayoutParams(miyagiCheckBoxLayoutParams);
         tohokuLayout.addView(miyagiCheckBox);
         miyagiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -495,6 +500,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams akitaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        akitaCheckBoxLayoutParams.setMargins(50,0,0,0);
         akitaCheckBox.setLayoutParams(akitaCheckBoxLayoutParams);
         tohokuLayout.addView(akitaCheckBox);
         akitaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -525,6 +531,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams yamagataCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        yamagataCheckBoxLayoutParams.setMargins(50,0,0,0);
         yamagataCheckBox.setLayoutParams(yamagataCheckBoxLayoutParams);
         tohokuLayout.addView(yamagataCheckBox);
         yamagataCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -555,6 +562,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams hukushimaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        hukushimaCheckBoxLayoutParams.setMargins(50,0,0,0);
         hukushimaCheckBox.setLayoutParams(hukushimaCheckBoxLayoutParams);
         tohokuLayout.addView(hukushimaCheckBox);
         hukushimaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -611,6 +619,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams ibarakiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        ibarakiCheckBoxLayoutParams.setMargins(50,0,0,0);
         ibarakiCheckBox.setLayoutParams(ibarakiCheckBoxLayoutParams);
         kantoLayout.addView(ibarakiCheckBox);
         ibarakiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -642,6 +651,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams tochigiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        tochigiCheckBoxLayoutParams.setMargins(50,0,0,0);
         tochigiCheckBox.setLayoutParams(tochigiCheckBoxLayoutParams);
         kantoLayout.addView(tochigiCheckBox);
         tochigiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -673,6 +683,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams gunmaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        gunmaCheckBoxLayoutParams.setMargins(50,0,0,0);
         gunmaCheckBox.setLayoutParams(gunmaCheckBoxLayoutParams);
         kantoLayout.addView(gunmaCheckBox);
         gunmaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -704,6 +715,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams saitamaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        saitamaCheckBoxLayoutParams.setMargins(50,0,0,0);
         saitamaCheckBox.setLayoutParams(saitamaCheckBoxLayoutParams);
         kantoLayout.addView(saitamaCheckBox);
         saitamaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -735,6 +747,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams chibaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        chibaCheckBoxLayoutParams.setMargins(50,0,0,0);
         chibaCheckBox.setLayoutParams(chibaCheckBoxLayoutParams);
         kantoLayout.addView(chibaCheckBox);
         chibaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -781,6 +794,7 @@ public class MainActivity extends AppCompatActivity {
         tokyoLayout.setLayoutParams(new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT));
+        tokyoCheckBoxLayoutParams.setMargins(50,0,0,0);
         kantoLayout.addView(tokyoLayout);
         tokyoLayout.setVisibility(View.GONE);
 
@@ -796,6 +810,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams kanagawaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        kanagawaCheckBoxLayoutParams.setMargins(50,0,0,0);
         kanagawaCheckBox.setLayoutParams(kanagawaCheckBoxLayoutParams);
         kantoLayout.addView(kanagawaCheckBox);
         kanagawaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -852,6 +867,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams nigataCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        nigataCheckBoxLayoutParams.setMargins(50,0,0,0);
         nigataCheckBox.setLayoutParams(nigataCheckBoxLayoutParams);
         tyubuLayout.addView(nigataCheckBox);
         nigataCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -882,6 +898,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams toyamaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        toyamaCheckBoxLayoutParams.setMargins(50,0,0,0);
         toyamaCheckBox.setLayoutParams(toyamaCheckBoxLayoutParams);
         tyubuLayout.addView(toyamaCheckBox);
         toyamaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -912,6 +929,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams ishikawaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        ishikawaCheckBoxLayoutParams.setMargins(50,0,0,0);
         ishikawaCheckBox.setLayoutParams(ishikawaCheckBoxLayoutParams);
         tyubuLayout.addView(ishikawaCheckBox);
         ishikawaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -943,6 +961,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams hukuiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        hukuiCheckBoxLayoutParams.setMargins(50,0,0,0);
         hukuiCheckBox.setLayoutParams(hukuiCheckBoxLayoutParams);
         tyubuLayout.addView(hukuiCheckBox);
         hukuiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -959,7 +978,7 @@ public class MainActivity extends AppCompatActivity {
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT));
         tyubuLayout.addView(hukuiLayout);
-        nigataLayout.setVisibility(View.GONE);
+        hukuiLayout.setVisibility(View.GONE);
 
         areaId = String.valueOf(cityId);
         new ApiTask().execute(areaId);
@@ -974,6 +993,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams yamanashiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        yamanashiCheckBoxLayoutParams.setMargins(50,0,0,0);
         yamanashiCheckBox.setLayoutParams(yamanashiCheckBoxLayoutParams);
         tyubuLayout.addView(yamanashiCheckBox);
         yamanashiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1005,6 +1025,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams naganoCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        naganoCheckBoxLayoutParams.setMargins(50,0,0,0);
         naganoCheckBox.setLayoutParams(naganoCheckBoxLayoutParams);
         tyubuLayout.addView(naganoCheckBox);
         naganoCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1036,6 +1057,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams gihuCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        gihuCheckBoxLayoutParams.setMargins(50,0,0,0);
         gihuCheckBox.setLayoutParams(gihuCheckBoxLayoutParams);
         tyubuLayout.addView(gihuCheckBox);
         gihuCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1067,6 +1089,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams shizuokaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        shizuokaCheckBoxLayoutParams.setMargins(50,0,0,0);
         shizuokaCheckBox.setLayoutParams(shizuokaCheckBoxLayoutParams);
         tyubuLayout.addView(shizuokaCheckBox);
         shizuokaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1097,6 +1120,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams aitiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        aitiCheckBoxLayoutParams.setMargins(50,0,0,0);
         aitiCheckBox.setLayoutParams(aitiCheckBoxLayoutParams);
         tyubuLayout.addView(aitiCheckBox);
         aitiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1151,6 +1175,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams mieCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        mieCheckBoxLayoutParams.setMargins(50,0,0,0);
         mieCheckBox.setLayoutParams(mieCheckBoxLayoutParams);
         kinkiLayout.addView(mieCheckBox);
         mieCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1181,6 +1206,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams shigaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        shigaCheckBoxLayoutParams.setMargins(50,0,0,0);
         shigaCheckBox.setLayoutParams(shigaCheckBoxLayoutParams);
         kinkiLayout.addView(shigaCheckBox);
         shigaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1212,6 +1238,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams kyotoCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        kyotoCheckBoxLayoutParams.setMargins(50,0,0,0);
         kyotoCheckBox.setLayoutParams(kyotoCheckBoxLayoutParams);
         kinkiLayout.addView(kyotoCheckBox);
         kyotoCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1243,6 +1270,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams osakaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        osakaCheckBoxLayoutParams.setMargins(50,0,0,0);
         osakaCheckBox.setLayoutParams(osakaCheckBoxLayoutParams);
         kinkiLayout.addView(osakaCheckBox);
         osakaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1274,6 +1302,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams hyogoCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        hyogoCheckBoxLayoutParams.setMargins(50,0,0,0);
         hyogoCheckBox.setLayoutParams(hyogoCheckBoxLayoutParams);
         kinkiLayout.addView(hyogoCheckBox);
         hyogoCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1305,6 +1334,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams naraCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        naraCheckBoxLayoutParams.setMargins(50,0,0,0);
         naraCheckBox.setLayoutParams(naraCheckBoxLayoutParams);
         kinkiLayout.addView(naraCheckBox);
         naraCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1336,6 +1366,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams wakayamaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        wakayamaCheckBoxLayoutParams.setMargins(50,0,0,0);
         wakayamaCheckBox.setLayoutParams(wakayamaCheckBoxLayoutParams);
         kinkiLayout.addView(wakayamaCheckBox);
         wakayamaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1391,6 +1422,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams tottoriCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        tottoriCheckBoxLayoutParams.setMargins(50,0,0,0);
         tottoriCheckBox.setLayoutParams(tottoriCheckBoxLayoutParams);
         tyugokuLayout.addView(tottoriCheckBox);
         tottoriCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1421,6 +1453,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams shimaneCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        shimaneCheckBoxLayoutParams.setMargins(50,0,0,0);
         shimaneCheckBox.setLayoutParams(shimaneCheckBoxLayoutParams);
         kinkiLayout.addView(shimaneCheckBox);
         shimaneCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1451,6 +1484,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams okayamaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        okayamaCheckBoxLayoutParams.setMargins(50,0,0,0);
         okayamaCheckBox.setLayoutParams(okayamaCheckBoxLayoutParams);
         tyugokuLayout.addView(okayamaCheckBox);
         okayamaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1481,6 +1515,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams hiroshimaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        hiroshimaCheckBoxLayoutParams.setMargins(50,0,0,0);
         hiroshimaCheckBox.setLayoutParams(hiroshimaCheckBoxLayoutParams);
         tyugokuLayout.addView(hiroshimaCheckBox);
         hiroshimaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1511,6 +1546,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams yamaguchiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        yamaguchiCheckBoxLayoutParams.setMargins(50,0,0,0);
         yamaguchiCheckBox.setLayoutParams(yamaguchiCheckBoxLayoutParams);
         tyugokuLayout.addView(yamaguchiCheckBox);
         yamaguchiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1566,6 +1602,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams tokushimaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        tokushimaCheckBoxLayoutParams.setMargins(50,0,0,0);
         tokushimaCheckBox.setLayoutParams(tokushimaCheckBoxLayoutParams);
         shikokuLayout.addView(tokushimaCheckBox);
         tokushimaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1596,6 +1633,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams kagawaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        kagawaCheckBoxLayoutParams.setMargins(50,0,0,0);
         kagawaCheckBox.setLayoutParams(kagawaCheckBoxLayoutParams);
         shikokuLayout.addView(kagawaCheckBox);
         kagawaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1626,6 +1664,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams ehimeCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        ehimeCheckBoxLayoutParams.setMargins(50,0,0,0);
         ehimeCheckBox.setLayoutParams(ehimeCheckBoxLayoutParams);
         shikokuLayout.addView(ehimeCheckBox);
         ehimeCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1656,6 +1695,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams kochiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        kochiCheckBoxLayoutParams.setMargins(50,0,0,0);
         kochiCheckBox.setLayoutParams(kochiCheckBoxLayoutParams);
         shikokuLayout.addView(kochiCheckBox);
         kochiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1712,6 +1752,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams hukuokaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        hukuokaCheckBoxLayoutParams.setMargins(50,0,0,0);
         hukuokaCheckBox.setLayoutParams(hukuokaCheckBoxLayoutParams);
         kyusyuLayout.addView(hukuokaCheckBox);
         hukuokaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1742,6 +1783,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams sagaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        sagaCheckBoxLayoutParams.setMargins(50,0,0,0);
         sagaCheckBox.setLayoutParams(sagaCheckBoxLayoutParams);
         kyusyuLayout.addView(sagaCheckBox);
         sagaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1772,6 +1814,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams nagasakiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        nagasakiCheckBoxLayoutParams.setMargins(50,0,0,0);
         nagasakiCheckBox.setLayoutParams(nagasakiCheckBoxLayoutParams);
         kyusyuLayout.addView(nagasakiCheckBox);
         nagasakiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1802,6 +1845,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams kumamotoCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        kumamotoCheckBoxLayoutParams.setMargins(50,0,0,0);
         kumamotoCheckBox.setLayoutParams(kumamotoCheckBoxLayoutParams);
         kyusyuLayout.addView(kumamotoCheckBox);
         kumamotoCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1832,6 +1876,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams oitaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        oitaCheckBoxLayoutParams.setMargins(50,0,0,0);
         oitaCheckBox.setLayoutParams(oitaCheckBoxLayoutParams);
         kyusyuLayout.addView(oitaCheckBox);
         oitaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1862,6 +1907,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams miyazakiCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        miyazakiCheckBoxLayoutParams.setMargins(50,0,0,0);
         miyazakiCheckBox.setLayoutParams(miyazakiCheckBoxLayoutParams);
         kyusyuLayout.addView(miyazakiCheckBox);
         miyazakiCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1893,6 +1939,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams kagoshimaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        kagoshimaCheckBoxLayoutParams.setMargins(50,0,0,0);
         kagoshimaCheckBox.setLayoutParams(kagoshimaCheckBoxLayoutParams);
         kyusyuLayout.addView(kagoshimaCheckBox);
         kagoshimaCheckBox.setOnClickListener(new View.OnClickListener() {
@@ -1923,6 +1970,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams okinawaCheckBoxLayoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
+        okinawaCheckBoxLayoutParams.setMargins(50,0,0,0);
         okinawaCheckBox.setLayoutParams(okinawaCheckBoxLayoutParams);
         kyusyuLayout.addView(okinawaCheckBox);
         okinawaCheckBox.setOnClickListener(new View.OnClickListener() {
